@@ -27,7 +27,7 @@ for (let i=0;i<countPlain;i++){
                     result.append(document.createElement('p').innerHTML = `${resultTxt}`);
                     conWinnerPlayer +=1;
                 }
-                evenPlayer = !evenPlayer;
+                evenPlayer = !evenPlayer; // Меняем игрока на противоположного
             } else {
                 crbut.innerHTML = 'O';
                 but[i][j]='O';
@@ -37,7 +37,7 @@ for (let i=0;i<countPlain;i++){
                     result.append(document.createElement('p').innerHTML = `${resultTxt}`);
                     conWinnerPlayer += 1 ;
                 }
-                evenPlayer = !evenPlayer;
+                evenPlayer = !evenPlayer; // Меняем игрока на противоположного
             }
             // console.log(i,j);
             console.log(but);
